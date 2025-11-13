@@ -115,3 +115,26 @@ ul {
 .flaves-price {
     padding-left: 60px;
 }
+.footer{
+padding:60px 0px 60px;
+border-top: 2px solid #779611;
+}
+.footer-container{
+display: flex;
+justify-content: space-between;
+}
+.footer-list{
+gap: 20px;
+display: flex;
+flex-direction: column;
+}
+.footer-link {
+color: #000;
+}
+.footer-title{
+font-weight: 400;
+margin-bottom:20px;
+}
+.footer-adres{
+line-height: 1.9;
+}

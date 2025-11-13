@@ -92,3 +92,26 @@ ul {
 .flaves-price {
     padding-left: 60px;
 }
+.subscription
+.flaves-title {
+    font-family: "Exo 2", sans-serif;
+    font-size: 36px;
+    color: #779611;
+}
+.flaves-text {
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.flaves-list {
+    display: flex;
+    justify-content: space-between;
+}
+.flaves-name {
+    font-size: 24px;
+    color: #779611;
+    font-weight: 400;
+    padding: 35px 0px 15px 60px;
+}
+.flaves-price {
+    padding-left: 60px;
+}

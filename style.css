@@ -69,6 +69,8 @@ ul {
 }
 .flaves {
     padding-top: 80px;
+    border-bottom: 2px solid #779611;
+    padding-bottom: 80px;
 }
 .flaves-title {
     font-family: "Exo 2", sans-serif;
@@ -92,49 +94,80 @@ ul {
 .flaves-price {
     padding-left: 60px;
 }
-.subscription
-.flaves-title {
+.subscription {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.subscription-title {
     font-family: "Exo 2", sans-serif;
     font-size: 36px;
     color: #779611;
 }
-.flaves-text {
+.subscription-text {
     padding-top: 35px;
     padding-bottom: 50px;
 }
-.flaves-list {
+.subscription-list {
     display: flex;
     justify-content: space-between;
 }
-.flaves-name {
+.subscription-name {
     font-size: 24px;
     color: #779611;
     font-weight: 400;
     padding: 35px 0px 15px 60px;
 }
-.flaves-price {
+.subscription-price {
     padding-left: 60px;
 }
 .footer{
-padding:60px 0px 60px;
-border-top: 2px solid #779611;
+    padding:60px 0px 60px;
+    border-top: 2px solid #779611;
 }
 .footer-container{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .footer-list{
-gap: 20px;
-display: flex;
-flex-direction: column;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .footer-link {
-color: #000;
+    color: #000;
 }
 .footer-title{
-font-weight: 400;
-margin-bottom:20px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 .footer-adres{
-line-height: 1.9;
+    line-height: 2.1;
+}
+.about-us {
+    padding-top: 80px;
+    border-top: 2px solid #779611;
+    padding-bottom: 80px;
+}
+.about-us-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us-subtitle {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #779611;
+    padding-bottom: 15px;
+}
+.about-us-title {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    padding-bottom: 35px;
+}
+.about-us-text {
+    font-weight: 400;
 }
